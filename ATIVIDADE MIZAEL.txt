@@ -1,0 +1,21 @@
+ATIVIDADE MIZAEL
+
+# media.py
+
+def calcular_media(lista):
+    if not lista:
+        return 0
+    return sum(lista) / len(lista)
+
+def main():
+    numeros = [10, 20, 30, 40, 50]
+    media = calcular_media(numeros)
+    print(f"A média dos números é: {media:.2f}")
+
+if __name__ == "__main__":
+    main()
+
+
+python media.py
+
+A média dos números é: 30.00
